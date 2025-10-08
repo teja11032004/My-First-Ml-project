@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome | FWI Prediction</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #00bcd4, #2196f3);
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            padding: 40px 60px;
+            text-align: center;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+            max-width: 500px;
+        }
+        h1 {
+            font-size: 2.2rem;
+            width : 100%;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1rem;
+            margin-bottom: 30px;
+        }
+        .btn {
+            background-color: #ffeb3b;
+            color: #333;
+            padding: 12px 28px;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            font-weight: 600;
+            text-decoration: none;
+            transition: 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #fff176;
+            transform: scale(1.05);
+        }
+        footer {
+            margin-top: 25px;
+            font-size: 0.8rem;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome to FWI Prediction App</h2>
+        <p>Predict Fire Weather Index based on environmental factors using our ML model.</p>
+        <a href="{{ url_for('predict_datapoint') }}" class="btn">Start Prediction</a>
+        <footer>Developed by <b>Tejobiram</b></footer>
+    </div>
+</body>
+</html>
