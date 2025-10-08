@@ -14,9 +14,7 @@ It provides a risk level indicating how likely a forest fire is to occur under g
 - [Project Structure](#project-structure)
 - [Model & Prediction](#model--prediction)
 - [Tech Stack](#tech-stack)
-- [Screenshots](#screenshots)
-- [License](#license)
-- [Author](#author)
+  
 
 ---
 
